@@ -1,0 +1,344 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="spqr.n95decon.DetailActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:text="Temperature (°C)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/temp_lower"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text=" to "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/temp_upper"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:text="Relative Humidity (%)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/RH_lower"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text=" to "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/RH_upper"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leave the text input blank if you don't want any boudary for the decon detection" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:text="In Range Decon Time"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/timeDecon"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="30"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="min"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:text="Comm Loss Grace Period"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/timeLost"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="2"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="min"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:text="Out Of Range Grace Period"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/timeOut"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="2"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="min"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The following are (auto) pre-configured settings. Change them if you change the physical settings for profiling." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:text="Decon Cycle Time"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/timeMH"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="30"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="min"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:text="Total Working Time"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/timeTotal"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="240"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="min"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:text="Heating Device Set Temperature"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+            <EditText
+                android:id="@+id/devTemp"
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="70"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="°C"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

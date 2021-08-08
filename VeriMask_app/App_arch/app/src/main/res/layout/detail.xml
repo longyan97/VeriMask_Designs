@@ -1,0 +1,217 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="spqr.n95decon.DetailActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/LC_temp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130sdp" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/LC_hum"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130sdp" />
+
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ddd"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:text="NodeID"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+                <TextView
+                    android:id="@+id/text_nodeID"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:text="#1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="end"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_horizontal_margin">
+
+
+
+                <TextView
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Temperature (°C)"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+                <TextView
+                    android:id="@+id/text_temp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="end"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Relative Humidity (%)"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+                <TextView
+                    android:id="@+id/text_hum"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="end"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Node Status"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+                <TextView
+                    android:id="@+id/text_nodeStatusDetail"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="end"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:text="In Decon Time (min)"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+                <TextView
+                    android:id="@+id/text_decontime"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="end"
+                    android:text="0"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Total Packets"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+                <TextView
+                    android:id="@+id/text_pktnum"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="end"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#666"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_18ssp"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:text="Disconnected -> Connect" />
+
+    </LinearLayout>
+
+</RelativeLayout>

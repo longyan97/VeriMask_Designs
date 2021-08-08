@@ -1,0 +1,12 @@
+1. The process of adding new types of sensor data to the app
+    1) MainActivity
+        public static final boolean XXX = true/false;
+    2) BLE_scanner
+        Within handlePacket -> APP_STATUS_RECORDING
+        calcHum/Temp
+        sharedpreference
+    3) NodeMeasurement
+    4) DetailActivity -> updateI()
+        Drawing
+        Text
+    5) NodeManager -> export

@@ -1,0 +1,85 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="spqr.n95decon.DetailActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical|left"
+                android:text="Recommended Device Temperature:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+
+            <TextView
+                android:id="@+id/textTemp"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:text="86 (°C)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#666" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We recommend not using the following locations for the containers." />
+
+        <TextView
+            android:id="@+id/textFails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Container location corresponding to the number:   3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textTmh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

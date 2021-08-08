@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_335sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_3sdp"
+        android:columnWidth="@dimen/_45sdp"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/_5sdp"
+        android:numColumns="5"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="@dimen/_5sdp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_nodeStatusListing"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_22sdp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:textSize="@dimen/_18ssp"-->
+<!--            android:text="Total: 1       Done: 0       Error: 0" />-->
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/startStopRecordingBtn"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Decon Recording"
+                android:textSize="@dimen/_13ssp" />
+
+            <CheckBox
+                android:id="@+id/profCheckBox"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Profiling" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="28dp"
+                android:layout_height="44dp"
+                app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+            <TextView
+                android:id="@+id/textCountDown"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="01:29" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/startNewRoundBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_13ssp"
+            android:text="Start A New Decontamination Cycle" />
+
+        <Button
+        android:id="@+id/exportBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textSize="@dimen/_13ssp"
+        android:text="Export Last Cycle Sensor Data " />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+./pca10100/S113/ses/Output
+*.o
+./pca10100/S113/ses/*.emSession
+*.emSession
