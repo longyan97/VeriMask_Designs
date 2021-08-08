@@ -1,0 +1,3 @@
+Standard 2-layer stackup
+1 oz copper (or standard)
+0.062" (or standard)

@@ -1,0 +1,40 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: N95Decon.GBR   4/29/2021  11:21:09 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM2                Top 3D Body                             
+.GM3                Mechanical 3                            
+.GM4                Top Courtyard                           
+.GM5                Mechanical 5                            
+.GM6                Top Assembly                            
+.GM7                Mechanical 7                            
+.GM8                Bottom Designator                       
+.GM10               Mechanical 10                           
+.GM12               Mechanical 12                           
+.GM13               Mechanical 13                           
+.GM15               Mechanical 15                           
+.GM16               Top Component Center                    
+.GM19               Top Designator                          
+.GM20               Bottom Assembly                         
+.GM21               Bottom Courtyard                        
+.GM23               Bottom 3D Body                          
+.GM24               Bottom Component Center                 
+.GKO                Keep-Out Layer                          
+.GML                Multi-Layer                             
+.1                  Dielectric 1                            
+.2                  Dielectric 2                            
+.3                  Dielectric 3                            
+------------------------------------------------------------------------------------------

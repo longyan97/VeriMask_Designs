@@ -1,0 +1,422 @@
+*************************************************************
+FileName = N95Decon.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Paste
+      File : N95Decon.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : N95Decon.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : N95Decon.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 3
+      File : N95Decon.GM3
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : N95Decon.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : N95Decon.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D28
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : N95Decon.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : N95Decon.GM4
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : N95Decon.GM6
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D11
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : N95Decon.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : N95Decon.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : N95Decon.GM2
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 5
+      File : N95Decon.GM5
+
+    Adding Layer      : Mechanical 5
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 7
+      File : N95Decon.GM7
+
+    Adding Layer      : Mechanical 7
+
+
+Used DCodes :
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : N95Decon.GM8
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : N95Decon.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D49
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : N95Decon.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : N95Decon.GM19
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 12
+      File : N95Decon.GM12
+
+    Adding Layer      : Mechanical 12
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : N95Decon.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 10
+      File : N95Decon.GM10
+
+    Adding Layer      : Mechanical 10
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : N95Decon.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D28
+    D42
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : N95Decon.GM21
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : N95Decon.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D50
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : N95Decon.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : N95Decon.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 3
+      File : N95Decon.3
+
+    Adding Layer      : Dielectric 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 2
+      File : N95Decon.2
+
+    Adding Layer      : Dielectric 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : N95Decon.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : N95Decon.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : N95Decon.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D32
+    D48
+*************************************************************
+

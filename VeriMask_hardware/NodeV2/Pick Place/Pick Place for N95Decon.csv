@@ -1,0 +1,40 @@
+Altium Designer Pick and Place Locations
+C:\Projects\N95 Decon\n95-decon-hardware\N95Decon\Project Outputs for N95Decon\Pick Place\Pick Place for N95Decon.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       29/04/21
+Time:       11:32
+Revision:   853399440dc87642fec0bbfe2c15c0e6c1465681
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description","Manufacturer Part Number 1"
+"TP5","BAT","TopLayer","TP06R","31.3130","14.4780","90","0.6mm round test point",""
+"TP4","GND","TopLayer","TP06R","50.0100","24.8920","90","0.6mm round test point",""
+"TP3","SCL","TopLayer","TP06R","33.8810","28.7020","90","0.6mm round test point",""
+"TP2","SDA","TopLayer","TP06R","36.1670","32.3850","90","0.6mm round test point",""
+"TP1","BTN","TopLayer","TP06R","50.2640","18.7960","90","0.6mm round test point",""
+"SB2","Solder Bridge","TopLayer","Solder_Bridge-Footprint-1","35.6515","11.0490","180","Normally open solder jumper",""
+"FD3","FID1X2R","TopLayer","FID1X2R","53.6930","34.5440","0","Fiducial - Round 1x2mm",""
+"FD2","FID1X2R","TopLayer","FID1X2R","28.4200","9.3980","0","Fiducial - Round 1x2mm",""
+"FD1","FID1X2R","TopLayer","FID1X2R","61.5950","7.8740","0","Fiducial - Round 1x2mm",""
+"R2","4.7k","TopLayer","RESC1608X55X30LL15T15","44.7040","19.8120","180","",""
+"R3","4.7k","TopLayer","RESC1608X55X30LL15T15","44.7040","18.2880","180","",""
+"R4","560R","TopLayer","RESC1608X55X30LL15T15","52.4790","5.4610","270","",""
+"J1","FTSH-105-01-F-DV-K-P-TR","TopLayer","FTSH-105-01-F-DV-K-P-TR-Footprint-1","33.7820","4.5720","0","CONN HEADER SMD 10POS 1.27MM",""
+"C5","100nF","TopLayer","CAPC1608X90X35LL15T15","29.4589","2.6238","90","",""
+"U2","SI7021-A20-GM1R","TopLayer","FP-SI7021-A20-GM1R-MFG","29.8450","33.3627","270","SENS HUMID/TEMP 3.6V I2C 2% 6DFN",""
+"C7","100nF","TopLayer","CAPC1608X90X35LL15T15","41.1785","14.2367","0","",""
+"C4","100nF","BottomLayer","CAPC1608X90X35LL15T15","29.4640","13.4620","180","",""
+"C2","100nF","TopLayer","CAPC1608X90X35LL15T15","30.2260","28.4480","180","",""
+"C1","100nF","TopLayer","CAPC1608X90X35LL15T15","40.1136","27.7216","180","",""
+"D1","TLMP1100-GS08","TopLayer","FP-6_541-5056_01-4-MFG","52.4510","8.7630","270","Green 561nm LED Indication - Discrete 2.1V 0603 (1608 Metric)","TLMP1100-GS08"
+"C3","2.2uF","BottomLayer","FP-CL10-IPC_C","29.4640","11.6840","0","Cap Ceramic 2.2uF 6.3V X5R ±10% Pad SMD 0603 +85°C T/R",""
+"P1","BU2450SM-JJ-GTR","BottomLayer","BU2450SM-JJ-GTR","45.0385","18.0383","225","BATTERY HOLDER COIN 24.5MM SMD","BU2450SM-JJ-GTR"
+"R1","4.7k","TopLayer","RESC1608X55X30LL15T15","40.0136","26.2890","0","",""
+"C8","100nF","TopLayer","CAPC1608X90X35LL15T15","44.7335","14.3637","180","",""
+"U1","453-00039C","TopLayer","453-00039C","44.4500","5.8801","270","BLE module (Nordic nRF52833) ? Integrated antenna (Cut Tape)- BL653 series","453-00039C"
+"C6","2.2uF","TopLayer","FP-CL10-IPC_C","44.7040","16.2560","0","Cap Ceramic 2.2uF 6.3V X5R ±10% Pad SMD 0603 +85°C T/R",""
+"SW1","4-1437565-1","TopLayer","TECO-4-1437565-1_V","44.1960","32.1310","90","Tactile Switch, 50 mA, 12 VDC, -20 to 85 degC, 4-Pin SMD, RoHS, Bulk","FSM4JSMATR"
