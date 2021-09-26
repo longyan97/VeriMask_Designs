@@ -11,3 +11,7 @@ Some details:
 1) The sensor nodes use the Laird653 wireless module with Nordic nRF52833 SoC (PCA10100)
 2) Two temperature and relative humidity sensors are supported: Si7021 and SHT35
 3) The sensor nodes and App communicate via BLE passive advertisement 
+
+![Alt text](imgs/1.jpg?raw=true "Title")
+![Alt text](imgs/2.jpg?raw=true "Title")
+
