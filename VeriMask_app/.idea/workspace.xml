@@ -4,18 +4,14 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca78ea93-3691-4d02-829c-818eb553c242" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App_arch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_arch/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_arch/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_arch/app/src/main/java/spqr/n95decon/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_arch/app/src/main/java/spqr/n95decon/MainActivity.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca78ea93-3691-4d02-829c-818eb553c242" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/App_arch" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1vltFLCAseQgwItnmGBV2Du3HTx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,8 +23,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/App_arch" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -105,10 +101,15 @@
       <screen x="1920" y="-1076" width="1920" height="1040" />
     </state>
     <state x="2643" y="-667" width="526" height="221" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824/1920.-1076.1920.1040@1920.-1076.1920.1040" timestamp="1627148582646" />
-    <state x="2522" y="-805" key="FileChooserDialogImpl" timestamp="1627149307253">
-      <screen x="1920" y="-1076" width="1920" height="1040" />
+    <state x="485" y="229" width="887" height="476" key="EnvironmentVariablesDialog" timestamp="1631925019866">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="229" width="887" height="476" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1631925019866" />
+    <state x="482" y="215" key="FileChooserDialogImpl" timestamp="1631924695803">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2522" y="-805" key="FileChooserDialogImpl/0.0.1536.824/1920.-1076.1920.1040@1920.-1076.1920.1040" timestamp="1627149307253" />
+    <state x="482" y="215" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631924695803" />
     <state width="1862" height="237" key="GridCell.Tab.0.bottom" timestamp="1627149034109">
       <screen x="1920" y="-1076" width="1920" height="1040" />
     </state>
@@ -125,10 +126,11 @@
       <screen x="1920" y="-1076" width="1920" height="1040" />
     </state>
     <state width="1862" height="237" key="GridCell.Tab.0.right/0.0.1536.824/1920.-1076.1920.1040@1920.-1076.1920.1040" timestamp="1627149034109" />
-    <state x="2244" y="-916" key="SettingsEditor" timestamp="1627148870274">
-      <screen x="1920" y="-1076" width="1920" height="1040" />
+    <state x="210" y="23" key="SettingsEditor" timestamp="1631925020664">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2244" y="-916" key="SettingsEditor/0.0.1536.824/1920.-1076.1920.1040@1920.-1076.1920.1040" timestamp="1627148870274" />
+    <state x="210" y="23" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631925020664" />
     <state x="2542" y="-851" width="672" height="678" key="search.everywhere.popup" timestamp="1627149269797">
       <screen x="1920" y="-1076" width="1920" height="1040" />
     </state>
